@@ -1,0 +1,16 @@
+<svg height="64" xmlns="http://www.w3.org/2000/svg" ml-update="aware" width="256" viewBox="0 0 400 100">
+    <defs>
+        <linearGradient xmlns="http://www.w3.org/2000/svg" id="play-button" gradientTransform="rotate(45)">
+            <stop offset="0" class="start-color" stop-color="#03cb00"/>
+            <stop offset="1" class="end-color" stop-color="#008307"/>
+        </linearGradient>
+        <linearGradient xmlns="http://www.w3.org/2000/svg" id="bg" gradientTransform="rotate(45)">
+            <stop offset="0" class="start-color" stop-color="#008cff"/>
+            <stop offset="1" class="end-color" stop-color="#0033a9"/>
+        </linearGradient>
+        <style type="text/css">@import url('/etc/fonts/fonts.css');</style>
+    </defs>
+    <rect width="100" height="100" rx="20" fill="url(#bg)"/>
+    <path stroke-width="10" stroke="url('#play-button')" filter="drop-shadow(2px 3px 3px #0007)" fill="url(#play-button)" stroke-linecap="round" stroke-linejoin="round" d="M 65,50 35,65 35,35 z"/>
+    <text font-family="Secular One, Arial" letter-spacing="0.05em" dominant-baseline="middle" x="120" font-size="55" y="55">Dynambu</text>
+</svg>

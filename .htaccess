@@ -1,0 +1,20 @@
+ErrorDocument 404 /404.php
+
+php_value auto_prepend_file "/var/www/www/dynambu/etc/lib.php"
+
+
+RewriteEngine on
+RewriteCond %{QUERY_STRING} ^$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^v/(.*?)/*$ /v/?v=$1
+
+RewriteEngine on
+RewriteCond %{QUERY_STRING} ^$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^u/(.*?)/*$ /u/?u=$1
+
+RewriteRule ^etc/lang\.js /etc/lang_js_loader.php
+
+Options -Indexes

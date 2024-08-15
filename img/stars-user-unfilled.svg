@@ -1,0 +1,12 @@
+<svg viewBox="0 0 500 100" width="320" height="64" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="bg" gradientTransform="rotate(45)">
+            <stop offset="0" class="start-color" stop-color="#03cb00" />
+            <stop offset="1" class="end-color" stop-color="#008307"  />
+        </linearGradient>
+        <pattern id="star" viewBox="0,0,200,200" width="20%" height="100%">
+            <polygon stroke-width="10" stroke="url('#bg')" points="100,10 40,180 190,60 10,60 160,180" fill="transparent" stroke-linecap="round" stroke-linejoin="round" />
+        </pattern>
+    </defs>
+    <rect width="500" height="100" fill="url(#star)" />
+</svg>

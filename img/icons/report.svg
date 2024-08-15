@@ -1,0 +1,10 @@
+<svg viewBox="0 0 100 100" width="64" height="64" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="bg" gradientTransform="rotate(45)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" class="start-color" stop-color="#ff0000" />
+            <stop offset="1" class="end-color" stop-color="#a92d00"  />
+        </linearGradient>
+    </defs>
+    
+    <polygon stroke-width="10" stroke="url('#bg')" points="10,90 10,10 10,20 50,20 50,30 90,30 90,60 50,60 50,50 10,50 10,90" fill="url('#bg')" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

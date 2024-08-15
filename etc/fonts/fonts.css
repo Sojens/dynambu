@@ -1,0 +1,251 @@
+@font-face {
+    font-family: 'Secular One';
+    src:url('/etc/fonts/SecularOne-Regular.woff2') format('woff2'),
+        url('/etc/fonts/SecularOne-Regular.woff')  format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Noto Sans Lao Looped';
+    src: url('/etc/fonts/NotoSansLaoLooped-Black.woff2') format('woff2'),
+        url('/etc/fonts/NotoSansLaoLooped-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Lao Looped';
+    src: url('/etc/fonts/NotoSansLaoLooped-ExtraBold.woff2') format('woff2'),
+        url('/etc/fonts/NotoSansLaoLooped-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Lao Looped';
+    src: url('/etc/fonts/NotoSansLaoLooped-Bold.woff2') format('woff2'),
+        url('/etc/fonts/NotoSansLaoLooped-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Lao Looped';
+    src: url('/etc/fonts/NotoSansLaoLooped-ExtraLight.woff2') format('woff2'),
+        url('/etc/fonts/NotoSansLaoLooped-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Lao Looped';
+    src: url('/etc/fonts/NotoSansLaoLooped-Medium.woff2') format('woff2'),
+        url('/etc/fonts/NotoSansLaoLooped-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Lao Looped';
+    src: url('/etc/fonts/NotoSansLaoLooped-SemiBold.woff2') format('woff2'),
+        url('/etc/fonts/NotoSansLaoLooped-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Lao Looped';
+    src: url('/etc/fonts/NotoSansLaoLooped-Light.woff2') format('woff2'),
+        url('/etc/fonts/NotoSansLaoLooped-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Lao Looped';
+    src: url('/etc/fonts/NotoSansLaoLooped-Regular.woff2') format('woff2'),
+        url('/etc/fonts/NotoSansLaoLooped-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Lao Looped';
+    src: url('/etc/fonts/NotoSansLaoLooped-Thin.woff2') format('woff2'),
+        url('/etc/fonts/NotoSansLaoLooped-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Lao Looped Condensed';
+    src: url('/etc/fonts/NotoSansLaoLoopedCondensed-Bold.woff2') format('woff2'),
+        url('/etc/fonts/NotoSansLaoLoopedCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Lao Looped Condensed';
+    src: url('/etc/fonts/NotoSansLaoLoopedCondensed-Light.woff2') format('woff2'),
+        url('/etc/fonts/NotoSansLaoLoopedCondensed-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Lao Looped Condensed';
+    src: url('/etc/fonts/NotoSansLaoLoopedCondensed-Medium.woff2') format('woff2'),
+        url('/etc/fonts/NotoSansLaoLoopedCondensed-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Lao Looped Condensed';
+    src: url('/etc/fonts/NotoSansLaoLoopedCondensed-Black.woff2') format('woff2'),
+        url('/etc/fonts/NotoSansLaoLoopedCondensed-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Lao Looped Condensed';
+    src: url('/etc/fonts/NotoSansLaoLoopedCondensed-Regular.woff2') format('woff2'),
+        url('/etc/fonts/NotoSansLaoLoopedCondensed-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Lao Looped Condensed';
+    src: url('/etc/fonts/NotoSansLaoLoopedCondensed-Thin.woff2') format('woff2'),
+        url('/etc/fonts/NotoSansLaoLoopedCondensed-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Lao Looped Condensed';
+    src: url('/etc/fonts/NotoSansLaoLoopedCondensed-ExtraBold.woff2') format('woff2'),
+        url('/etc/fonts/NotoSansLaoLoopedCondensed-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Lao Looped Condensed';
+    src: url('/etc/fonts/NotoSansLaoLoopedCondensed-SemiBold.woff2') format('woff2'),
+        url('/etc/fonts/NotoSansLaoLoopedCondensed-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Lao Looped Condensed';
+    src: url('/etc/fonts/NotoSansLaoLoopedCondensed-ExtraLight.woff2') format('woff2'),
+        url('/etc/fonts/NotoSansLaoLoopedCondensed-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Lao Looped ExtraCondensed';
+    src: url('/etc/fonts/NotoSansLaoLoopedExtraCondensed-ExtraLight.woff2') format('woff2'),
+        url('/etc/fonts/NotoSansLaoLoopedExtraCondensed-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Lao Looped ExtraCondensed';
+    src: url('/etc/fonts/NotoSansLaoLoopedExtraCondensed-Thin.woff2') format('woff2'),
+        url('/etc/fonts/NotoSansLaoLoopedExtraCondensed-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Lao Looped ExtraCondensed';
+    src: url('/etc/fonts/NotoSansLaoLoopedExtraCondensed-Regular.woff2') format('woff2'),
+        url('/etc/fonts/NotoSansLaoLoopedExtraCondensed-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Lao Looped ExtraCondensed';
+    src: url('/etc/fonts/NotoSansLaoLoopedExtraCondensed-SemiBold.woff2') format('woff2'),
+        url('/etc/fonts/NotoSansLaoLoopedExtraCondensed-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Lao Looped ExtraCondensed';
+    src: url('/etc/fonts/NotoSansLaoLoopedExtraCondensed-Light.woff2') format('woff2'),
+        url('/etc/fonts/NotoSansLaoLoopedExtraCondensed-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Lao Looped ExtraCondensed';
+    src: url('/etc/fonts/NotoSansLaoLoopedExtraCondensed-Medium.woff2') format('woff2'),
+        url('/etc/fonts/NotoSansLaoLoopedExtraCondensed-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Lao Looped ExtraCondensed';
+    src: url('/etc/fonts/NotoSansLaoLoopedExtraCondensed-Bold.woff2') format('woff2'),
+        url('/etc/fonts/NotoSansLaoLoopedExtraCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Lao Looped ExtraCondensed';
+    src: url('/etc/fonts/NotoSansLaoLoopedExtraCondensed-Black.woff2') format('woff2'),
+        url('/etc/fonts/NotoSansLaoLoopedExtraCondensed-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Lao Looped ExtraCondensed';
+    src: url('/etc/fonts/NotoSansLaoLoopedExtraCondensed-ExtraBold.woff2') format('woff2'),
+        url('/etc/fonts/NotoSansLaoLoopedExtraCondensed-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
